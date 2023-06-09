@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    url: jdbc:h2:mem:testdb
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
+  sql:
+    init:
+      mode: embedded
