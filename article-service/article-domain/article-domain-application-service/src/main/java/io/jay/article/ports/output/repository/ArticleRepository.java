@@ -1,7 +1,6 @@
 package io.jay.article.ports.output.repository;
 
 import io.jay.article.entity.Article;
-import io.jay.article.entity.Author;
 
 import java.util.List;
 
