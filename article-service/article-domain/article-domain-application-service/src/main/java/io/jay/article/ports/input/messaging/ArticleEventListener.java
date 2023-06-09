@@ -3,9 +3,9 @@ package io.jay.article.ports.input.messaging;
 public interface ArticleEventListener {
 
     /**
-     * Listens JSON message from message broker.
-     * Adapter should be implemented in article-messaging (i.e KafkaListener)
-     * @param json
+     * Adapter is implemented in application-service module
+     * This port should be invoked by a message listener (i.e KafkaListener)
+     * @param response
      */
-    void listen(String json);
+    void listen(String response);
 }

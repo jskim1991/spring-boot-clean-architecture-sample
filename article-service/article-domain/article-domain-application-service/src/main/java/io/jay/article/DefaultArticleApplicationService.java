@@ -1,10 +1,11 @@
-package io.jay.article.service;
+package io.jay.article;
 
 import io.jay.article.dto.NewArticleCommand;
 import io.jay.article.entity.Article;
 import io.jay.article.mapper.ArticleDataMapper;
 import io.jay.article.ports.output.repository.ArticleRepository;
 import io.jay.article.ports.output.repository.AuthorRepository;
+import io.jay.article.service.ArticleDomainService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

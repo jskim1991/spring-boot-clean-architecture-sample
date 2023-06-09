@@ -1,4 +1,4 @@
-package io.jay.article.service;
+package io.jay.article;
 
 import io.jay.article.dto.NewArticleCommand;
 import io.jay.article.entity.Article;
